@@ -1,0 +1,19 @@
+.# Archivos y directorios de Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+
+# Archivos de variables sensibles
+*.tfvars
+*.tfvars.json
+
+# Archivos de configuración de la CLI
+.terraformrc
+terraform.rc
+
+# Archivos de logs generados por Terraform
+*.log
+
+# Archivos generados por herramientas de análisis o formato
+.terraform.lock.hcl
