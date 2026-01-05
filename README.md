@@ -51,3 +51,29 @@ terraform apply --auto-approve=true
 ```bash
 terraform apply --target aws_subnet.public_subnet
 ```
+
+Refresca el .state desde la infraestructura
+```bash
+terraform refresh
+```
+
+```bash
+terraform state list
+```
+
+```bash
+terraform taint
+```
+
+### Logs
+
+Menor detalle   | info
+...             | warning
+...             | error
+...             | debug
+Maximo detalle  | trace
+
+```bash
+export TF_LOG=TRACE
+export TF_LOG_PATH=logs.txt
+```

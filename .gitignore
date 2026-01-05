@@ -17,3 +17,5 @@ terraform.rc
 
 # Archivos generados por herramientas de análisis o formato
 .terraform.lock.hcl
+
+*.pem
